@@ -1,13 +1,11 @@
-import './Post.css';
+import styles from './Post.module.css';
 
-const names = ["Shreya", "Akshay"];
-
-const Post = () => {
-    const chosenName = Math.random() > 0.5 ? names[0] : names[1];
+const Post = props => {
     return (
-        <div>
-            <p>{chosenName}</p>
-        </div>
+        <li className={styles}>
+            <p>{props.author}</p>
+            <p>{props.text}</p>
+        </li>
     );
 };
 

@@ -1,0 +1,7 @@
+.posts {
+    list-style-type: none;
+    justify-content: center;
+    background-color: red;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}

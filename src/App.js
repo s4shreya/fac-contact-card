@@ -1,21 +1,14 @@
-import Post from './components/Post';
 import './App.css';
+import PostsList from './components/PostsList';
+import NewPost from './components/NewPost';
 
 function App() {
   return (
-    <div className="App">
+    <main className="App">
       Hello World
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-    </div>
+      <PostsList />
+      <NewPost />
+    </main>
   );
 }
 
