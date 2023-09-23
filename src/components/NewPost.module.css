@@ -1,3 +1,9 @@
 .form {
     background-color: chocolate;
+    margin: 50px;
+    text-align: center;
+}
+
+p label {
+    display: block;
 }
