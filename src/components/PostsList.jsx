@@ -20,7 +20,7 @@ const PostsList = () => {
   };
   return (
     <>
-      <Header onCreatePost={showModalHandler} />
+      {/* <Header onCreatePost={showModalHandler} /> */}
       <div>
         {isModalOpen ? (
           <Modal onClose={showModalHandler}>
